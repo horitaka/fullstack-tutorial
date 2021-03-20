@@ -12,10 +12,10 @@ module.exports = {
       })
       return {
         launches,
-        cursol: launches.length ? launches[launches.length - 1].cursol : null,
+        cursor: launches.length ? launches[launches.length - 1].cursor : null,
         hasMore: launches.length
-          ? launches[launches.length - 1].cursol !==
-            allLaunches[allLaunches.length - 1].cursol
+          ? launches[launches.length - 1].cursor !==
+            allLaunches[allLaunches.length - 1].cursor
           : false,
       }
     },

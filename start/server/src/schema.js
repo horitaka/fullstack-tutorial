@@ -8,7 +8,7 @@ const typeDefs = gql`
   }
 
   type LaunchConnection {
-    cursol: String!
+    cursor: String!
     hasMore: Boolean!
     launches: [Launch]!
   }
